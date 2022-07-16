@@ -1,0 +1,38 @@
+.about{
+    flex: 0 0 100%;
+    margin: .5rem;
+}
+.about-contaner{
+    display: flex;
+    flex-direction: column;
+}
+.about-img{
+    min-width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.about-text{
+    background-color: rgb(224, 78, 60);
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: black;
+}
+.about-text h1{
+    padding: 0 0 0 2rem ;
+    color:rgb(38, 127, 74) ;
+}
+.about-text p{
+    padding: 2rem ;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (min-width: 600px) {
+    .about-contaner{
+        display: flex;
+        flex-direction: row;
+    }
+ }

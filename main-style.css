@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: rgb(19, 19, 19);
+    color: #fff;
+    font-family: 'Titan One', cursive;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    cursor: -webkit-image-set(url("https://cdn.studio-job.com/static/img/cursors/cursors_standard.png") 1x,url("https://cdn.studio-job.com/static/img/cursors/cursors_standard@2x.png") 2x) 10 15,auto;
+}
+a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    cursor: -webkit-image-set(url("https://cdn.studio-job.com/static/img/cursors/cursors_standard.png") 1x,url("https://cdn.studio-job.com/static/img/cursors/cursors_standard@2x.png") 2x) 10 15,auto;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.noClick{
+    cursor: -webkit-image-set(url("https://cdn.studio-job.com/static/img/cursors/cursors_pointer.png") 1x,url("https://cdn.studio-job.com/static/img/cursors/cursors_pointer@2x.png") 2x) 10 15,auto;
+}
+.nav-bar{
+    background-color: white;
+    flex: 0 0 100%;
+    font-size: 1.8rem;
+    display: flex;
+}
+.links a, .welcome{
+    padding: 0 0 0 1rem;
+    color: black;
+}
+.links a{
+    font-family: 'Poppins', sans-serif;
+}
+.links a:first-child{
+    font-size: 2.5rem;
+    font-family: 'Titan One', cursive;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icons{
+    margin-left: auto;
+    border-left: .5rem solid black;
+    display: none;
+}
+.icons .iconify{
+    margin: .5rem;
+    font-size: 2.5rem;
+}
+.card,
+.card-announcement {
+    display: flex;
+    background: #353535;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
+ @media screen and (min-width: 600px) {
+    .icons{
+        display: block;
+    }
+ }
